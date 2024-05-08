@@ -1,0 +1,5 @@
+# github.com/confluentinc/confluent-kafka-go/v2 v2.3.0
+## explicit; go 1.17
+github.com/confluentinc/confluent-kafka-go/v2/kafka
+github.com/confluentinc/confluent-kafka-go/v2/kafka/librdkafka_vendor
+# test.com/schema => ../schema

@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "amount": {
+        "type": "number",
+        "pattern": "^\\d+(\\.\\d{1,2})?$"
+      },
+      "account_id": {
+        "type": "string"
+      },
+      "operation": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "account_type": {
+        "type": "string"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      }
+    },
+    "required": ["id", "amount", "account_id", "operation", "created_at"]
+  }
